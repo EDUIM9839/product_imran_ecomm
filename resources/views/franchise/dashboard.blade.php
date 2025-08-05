@@ -1,0 +1,1 @@
+<h1>Welcome  franchise Dashboard</h1>

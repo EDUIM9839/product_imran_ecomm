@@ -1,0 +1,5 @@
+@include('../layout.header_link')
+@include('../layout.header')
+@include('../layout.sidebar')
+@yield('mains')
+@include('../layout.footer')
