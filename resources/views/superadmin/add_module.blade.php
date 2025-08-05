@@ -1692,10 +1692,10 @@
                 processing: true,
                 serverSide: true,
                 ajax: "{{ route('modules.list') }}",
-                paging: true, // Disable Pagination
+                paging: false    , // Disable Pagination
                 searching: true, // Disable Search box
                 info: false, // Disable "Showing X of Y" text
-                lengthChange: false, // Disable Entries dropdown
+                lengthChange: true, // Disable Entries dropdown
                 ordering: false,
                 columns: [
                     { // Row Number
